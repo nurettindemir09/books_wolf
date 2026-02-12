@@ -10,14 +10,28 @@ Bu proje, **Tügva Kitap Kurdu** başvurularını otomatize etmek için gelişti
 *   **CAPTCHA Yardımı:** Form doldurulduktan sonra otomatik olarak CAPTCHA kutusuna odaklanır, böylece sadece karakterleri yazıp `Enter` tuşuna basmanız yeterlidir.
 *   **Seri Doldurma:** Başvuru başarıyla tamamlandığında ("Başvurunuz başarıyla alınmıştır" mesajını görünce) otomatik olarak bir sonraki öğrenciye geçer.
 
-## Kurulum
+## Kurulum (Başka Bir Bilgisayar İçin)
 
-1.  Python'u yükleyin.
-2.  Gerekli kütüphaneleri yükleyin:
-    ```bash
-    pip install pandas selenium openpyxl
-    ```
-3.  Chrome tarayıcınızın güncel olduğundan emin olun.
+Eğer bu botu başka bir bilgisayarda çalıştırmak isterseniz sırasıyla şunları yapmalısınız:
+
+1.  **Python Yükleyin:**
+    *   [python.org](https://www.python.org/downloads/) adresinden Python'un son sürümünü indirin ve kurun.
+    *   **ÖNEMLİ:** Kurulum sırasında **"Add Python to PATH"** kutucuğunu MUTLAKA işaretleyin.
+
+2.  **Projeyi İndirin:**
+    *   Bu sayfadan **Code -> Download ZIP** diyerek dosyaları indirin ve masaüstüne klasör olarak çıkarın.
+    *   Veya terminalden: `git clone https://github.com/nurettindemir09/books_wolf.git`
+
+3.  **Gerekli Kütüphaneleri Yükleyin:**
+    *   Proje klasörünün içine girin.
+    *   Klasörde boş bir yere `Shift + Sağ Tık` yapıp **"PowerShell penceresini buradan aç"** veya **"Terminalde aç"** deyin.
+    *   Şu komutu yapıştırıp `Enter`'a basın:
+        ```bash
+        pip install pandas selenium openpyxl webdriver-manager image
+        ```
+
+4.  **Hazırsınız!**
+    *   Artık `baslat.bat` dosyasına çift tıklayarak botu açabilirsiniz.
 
 ## Kullanım (Kolay Arayüz ile)
 
