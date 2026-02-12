@@ -19,15 +19,21 @@ Bu proje, **Tügva Kitap Kurdu** başvurularını otomatize etmek için gelişti
     ```
 3.  Chrome tarayıcınızın güncel olduğundan emin olun.
 
-## Kullanım
+## Kullanım (Kolay Arayüz ile)
 
-1.  `veriler.csv` dosyasını hazırlayın (Örnek format proje içinde mevcuttur).
+1.  **`baslat.bat`** dosyasına çift tıklayın.
+2.  Açılan pencerede **"Dosya Seç"** butonuna basarak öğrenci listenizi (CSV veya Excel) seçin.
+3.  **"BOTU BAŞLAT"** butonuna basın.
+4.  Bot çalışmaya başlayacak ve işlem kayıtlarını pencerede gösterecektir.
+
+## Kullanım (Terminal ile)
+
+1.  `veriler.csv` dosyasını hazırlayın.
 2.  Botu çalıştırın:
     ```bash
     python bot.py
     ```
-3.  Açılan tarayıcıda bot formu dolduracaktır. CAPTCHA alanına gelince karakterleri girip `Enter` veya `Gönder` butonuna basın.
-4.  Bot başarı mesajını algılayıp diğer öğrenciye geçecektir.
+
 
 ## Notlar
 

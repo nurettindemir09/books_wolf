@@ -15,6 +15,9 @@ veriler.csv
 veriler.xlsx
 data.xlsx
 
+# Temporary Office Files
+~$*
+
 # Logs and system
 *.log
 debug_screenshots/
