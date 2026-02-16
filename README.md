@@ -1,6 +1,6 @@
 # Books Wolf - Otomatik Başvuru Botu
 
-Bu proje, **Tügva Kitap Kurdu** başvurularını otomatize etmek için geliştirilmiş bir Python botudur. Excel veya CSV dosyasındaki öğrenci verilerini okuyarak web formunu otomatik olarak doldurur.
+Bu proje, ******************** başvurularını otomatize etmek için geliştirilmiş bir Python botudur. Excel veya CSV dosyasındaki öğrenci verilerini okuyarak web formunu otomatik olarak doldurur.
 
 ## Özellikler
 
