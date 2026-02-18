@@ -10,7 +10,7 @@ Bu proje, ******************** başvurularını otomatize etmek için geliştiri
 *   **CAPTCHA Yardımı:** Form doldurulduktan sonra otomatik olarak CAPTCHA kutusuna odaklanır, böylece sadece karakterleri yazıp `Enter` tuşuna basmanız yeterlidir.
 *   **Seri Doldurma:** Başvuru başarıyla tamamlandığında ("Başvurunuz başarıyla alınmıştır" mesajını görünce) otomatik olarak bir sonraki öğrenciye geçer.
 
-## Kurulum (Başka Bir Bilgisayar İçin)
+## Kurulum 
 
 Eğer bu botu başka bir bilgisayarda çalıştırmak isterseniz sırasıyla şunları yapmalısınız:
 
